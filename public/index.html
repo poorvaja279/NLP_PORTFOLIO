@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#efe4c9">
+<title>The NLP Bookcase — Language is Understanding</title><link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header class="topbar"><a class="wordmark" href="#home">THE NLP BOOKCASE</a><span class="top-note">A little record of a mind in motion</span><button id="aboutBtn" class="text-button">About this collection ↗</button></header>
+<main id="home">
+<section class="intro"><p class="eyebrow">A PORTFOLIO FROM MY NLP CLASS</p><h1>Every book holds<br><em>a little piece of learning.</em></h1><p class="intro-copy">Open a book. Find a question, an experiment, a small discovery, or an idea that refused to leave my head.</p></section>
+<section class="library" aria-label="Interactive bookshelf"><div class="shelf-label"><span>THE COLLECTION</span><span>Choose a book to open it</span></div><div class="shelf" id="shelf">
+<button class="book book-rust" data-book="stars" aria-label="Open The Star Ledger"><span class="book-top">01</span><span class="book-title">The Star Ledger</span><span class="book-subtitle">Little wins, real learning</span></button>
+<button class="book book-green" data-book="activities" aria-label="Open In the Classroom"><span class="book-top">02</span><span class="book-title">In the Classroom</span><span class="book-subtitle">Activities & experiments</span></button>
+<button class="book book-blue" data-book="brainstorm" aria-label="Open The Idea Table"><span class="book-top">03</span><span class="book-title">The Idea Table</span><span class="book-subtitle">Class questions & solutions</span></button>
+<button class="book book-plum" data-book="messages" aria-label="Open Notes to Ma'am"><span class="book-top">04</span><span class="book-title">Notes to Ma'am</span><span class="book-subtitle">Questions beyond class</span></button>
+<button class="book book-gold" data-book="research" aria-label="Open The Unfinished Shelf"><span class="book-top">05</span><span class="book-title">The Unfinished Shelf</span><span class="book-subtitle">Ideas I want to explore</span></button>
+<button class="book book-music" data-book="music" aria-label="Open the Schoolhouse Rock songbook"><span class="music-sticker">♫</span><span class="book-title">Schoolhouse<br>Rock!</span><span class="book-subtitle">The music corner</span></button>
+<div class="shelf-plank"></div></div><p class="shelf-caption">Browse slowly. Curiosity is allowed to wander.</p></section>
+<section class="quote-strip"><span class="quote-mark">“</span><p>language is <em>understanding</em></p><span class="quote-mark">”</span></section>
+<section class="bottom-note"><span>MADE WITH CURIOSITY</span><span>Natural Language Processing · Class Portfolio</span></section>
+</main>
+<div class="overlay" id="overlay" aria-hidden="true"><div class="reader-shell"><div class="reader-toolbar"><button id="closeBook" class="text-button">← Back to bookshelf</button><span id="readerCounter">BOOK 01</span><div class="reader-actions"><button id="prevPage" aria-label="Previous page">←</button><button id="nextPage" aria-label="Next page">→</button></div></div><div class="open-book" id="openBook"><div class="page left-page"><div class="page-inner" id="leftContent"></div><span class="page-number" id="leftNum">1</span></div><div class="book-gutter"></div><div class="page right-page"><div class="page-inner" id="rightContent"></div><span class="page-number" id="rightNum">2</span></div></div><p class="reader-hint">Use the arrows to turn the pages · Esc to close</p></div></div>
+<div class="modal-overlay" id="aboutModal" aria-hidden="true"><div class="about-card"><button id="closeAbout" class="close-x" aria-label="Close">×</button><p class="eyebrow">A NOTE FROM THE AUTHOR</p><h2>Not just what I learned.<br><em>What made me curious.</em></h2><p>This is my record of learning Natural Language Processing: the stars I earned, the activities I tried, the questions we discussed in class, the conversations I had outside class, and the research ideas I kept thinking about.</p><p class="small-muted">Some entries are completed activities; others are ideas for future exploration. They are labelled accordingly.</p></div></div>
+<script src="/app.js"></script></body></html>
