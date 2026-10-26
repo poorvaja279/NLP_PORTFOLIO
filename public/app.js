@@ -64,6 +64,8 @@ const songs = [
 ];
 function renderBook() {
   const b = bookData[currentBook];
+  const readerShell = document.querySelector(".reader-shell");
+  readerShell.className = "reader-shell " + ({stars:"theme-star",activities:"theme-star",brainstorm:"theme-cyber",messages:"theme-history",research:"theme-history",music:"theme-music"}[currentBook] || "");
   const leftIndex = pageIndex;
   const rightIndex = pageIndex + 1;
   leftContent.innerHTML = b.pages[leftIndex] || '<p class="eyebrow">A LITTLE PAUSE</p><h2>More pages to come.</h2><p>This book can grow as more class notes and activities are added.</p>';

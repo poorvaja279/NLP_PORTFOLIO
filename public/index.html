@@ -1,24 +1,93 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#efe4c9">
-<title>The NLP Bookcase — Language is Understanding</title><link rel="stylesheet" href="/styles.css">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#100d19">
+<meta name="description" content="The NLP Bookcase — a living portfolio of class activities, questions, and research ideas.">
+<title>The NLP Bookcase — Language is Infinite</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=IM+Fell+English:ital@0;1&family=DM+Mono:wght@400;500&family=Spectral:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-<header class="topbar"><a class="wordmark" href="#home">THE NLP BOOKCASE</a><span class="top-note">A little record of a mind in motion</span><button id="aboutBtn" class="text-button">About this collection ↗</button></header>
+<div class="ambient ambient-left" aria-hidden="true"></div><div class="ambient ambient-right" aria-hidden="true"></div>
+<header class="topbar">
+ <a class="wordmark" href="#home"><span class="sigil">✦</span> THE NLP BOOKCASE</a>
+ <span class="top-note">A little record of a mind in motion</span>
+ <button id="aboutBtn" class="about-trigger" aria-label="Open About Me" title="A note about me"><span>✧</span><small>ABOUT ME</small></button>
+</header>
 <main id="home">
-<section class="intro"><p class="eyebrow">A PORTFOLIO FROM MY NLP CLASS</p><h1>Every book holds<br><em>a little piece of learning.</em></h1><p class="intro-copy">Open a book. Find a question, an experiment, a small discovery, or an idea that refused to leave my head.</p></section>
-<section class="library" aria-label="Interactive bookshelf"><div class="shelf-label"><span>THE COLLECTION</span><span>Choose a book to open it</span></div><div class="shelf" id="shelf">
-<button class="book book-rust" data-book="stars" aria-label="Open The Star Ledger"><span class="book-top">01</span><span class="book-title">The Star Ledger</span><span class="book-subtitle">Little wins, real learning</span></button>
-<button class="book book-green" data-book="activities" aria-label="Open In the Classroom"><span class="book-top">02</span><span class="book-title">In the Classroom</span><span class="book-subtitle">Activities & experiments</span></button>
-<button class="book book-blue" data-book="brainstorm" aria-label="Open The Idea Table"><span class="book-top">03</span><span class="book-title">The Idea Table</span><span class="book-subtitle">Class questions & solutions</span></button>
-<button class="book book-plum" data-book="messages" aria-label="Open Notes to Ma'am"><span class="book-top">04</span><span class="book-title">Notes to Ma'am</span><span class="book-subtitle">Questions beyond class</span></button>
-<button class="book book-gold" data-book="research" aria-label="Open The Unfinished Shelf"><span class="book-top">05</span><span class="book-title">The Unfinished Shelf</span><span class="book-subtitle">Ideas I want to explore</span></button>
-<button class="book book-music" data-book="music" aria-label="Open the Schoolhouse Rock songbook"><span class="music-sticker">♫</span><span class="book-title">Schoolhouse<br>Rock!</span><span class="book-subtitle">The music corner</span></button>
-<div class="shelf-plank"></div></div><p class="shelf-caption">Browse slowly. Curiosity is allowed to wander.</p></section>
-<section class="quote-strip"><span class="quote-mark">“</span><p>language is <em>understanding</em></p><span class="quote-mark">”</span></section>
-<section class="bottom-note"><span>MADE WITH CURIOSITY</span><span>Natural Language Processing · Class Portfolio</span></section>
+ <section class="hero">
+  <div class="hero-side hero-fantasy" aria-label="Fantasy shelf">
+   <span class="corner-kicker">WORLDS & SPELLS</span><div class="floating-moon">☾</div><div class="fantasy-orb">✧</div>
+   <div class="mini-spines"><span>A COURT OF THORNS & ROSES</span><span>THRONE OF GLASS</span><span>FOURTH WING</span><span>THE CRUEL PRINCE</span><span>ONCE UPON A BROKEN HEART</span></div>
+   <p class="paper-note">Different worlds,<br>same girl.</p>
+  </div>
+  <div class="hero-copy">
+   <p class="eyebrow"><span>✦</span> A PORTFOLIO FROM MY NLP CLASS <span>✦</span></p>
+   <h1>Every book holds<br><em>a little piece of learning.</em></h1>
+   <p class="hero-sub">Open a book. Find a question, an experiment, a small discovery, or an idea that refused to leave my head.</p>
+   <div class="hero-rule"><span>✧</span><i></i><span>✧</span></div>
+  </div>
+  <div class="hero-side hero-detective" aria-label="Investigation corner">
+   <span class="corner-kicker">THE CASE FILES</span><div class="case-board"><span class="case-label">QUESTIONS</span><span class="case-label">CLUES</span><span class="case-label">CONNECTIONS</span><span class="case-label">POSSIBILITIES</span><i class="red-string string-one"></i><i class="red-string string-two"></i><span class="pin pin-one"></span><span class="pin pin-two"></span><span class="pin pin-three"></span></div>
+   <p class="paper-note">Real questions<br>live here.</p>
+  </div>
+ </section>
+ <section class="library" aria-label="Interactive bookshelf">
+  <div class="shelf-label"><span>THE COLLECTION</span><span>Choose a book to open it <b>↴</b></span></div>
+  <div class="shelf-scene">
+   <aside class="side-gallery gallery-left">
+    <div class="gallery-heading">MANGA · MANHWA</div>
+    <div class="gallery-poster poster-solo"><span class="poster-glow">SOLO<br>LEVELING</span><i>✦</i></div>
+    <div class="gallery-poster poster-star"><span>DAYTIME<br>STAR</span><i>✧</i></div>
+    <div class="mini-spines small-spines"><span>OMNISCIENT READER</span><span>THE VILLAINESS TURNS THE HOURGLASS</span><span>WHO MADE ME A PRINCESS</span></div>
+    <p class="scrap-note">Other people's stories<br>feel like mine too.</p>
+   </aside>
+   <div class="bookshelf-core">
+    <div class="collection-plaque">✧ &nbsp; THE COLLECTION &nbsp; ✧</div>
+    <div class="shelf" id="shelf">
+     <button class="book book-rust" data-book="stars" aria-label="Open The Star Ledger"><span class="book-number">I</span><span class="book-ornament">✧</span><span class="book-title">The Star<br>Ledger</span><span class="book-subtitle">Little wins,<br>real learning</span><span class="book-bottom-mark">☼</span></button>
+     <button class="book book-green" data-book="activities" aria-label="Open In the Classroom"><span class="book-number">II</span><span class="book-ornament">❧</span><span class="book-title">In the<br>Classroom</span><span class="book-subtitle">Activities,<br>experiments</span><span class="book-bottom-mark">❦</span></button>
+     <button class="book book-blue" data-book="brainstorm" aria-label="Open The Idea Table"><span class="book-number">III</span><span class="book-ornament">◉</span><span class="book-title">The<br>Idea Table</span><span class="book-subtitle">Questions,<br>brainstorms</span><span class="book-bottom-mark">⌁</span></button>
+     <button class="book book-plum" data-book="messages" aria-label="Open Notes to Ma'am"><span class="book-number">IV</span><span class="book-ornament">✉</span><span class="book-title">Notes<br>to Ma’am</span><span class="book-subtitle">Conversations<br>beyond class</span><span class="book-bottom-mark">❧</span></button>
+     <button class="book book-parchment" data-book="research" aria-label="Open The Unfinished Shelf"><span class="book-number">V</span><span class="book-ornament">⌕</span><span class="book-title">The<br>Unfinished<br>Shelf</span><span class="book-subtitle">An investigation<br>of ideas</span><span class="book-bottom-mark">✧</span></button>
+     <button class="book book-music" data-book="music" aria-label="Open Schoolhouse Rock album"><span class="album-sticker">♫</span><span class="album-title">SCHOOL<br>HOUSE<br>ROCK!</span><span class="album-subtitle">THE MUSIC CORNER</span><span class="vinyl"></span></button>
+    </div>
+    <div class="shelf-plank"><span>✦</span><strong>language is infinite</strong><span>☾</span><span>✧</span></div>
+   </div>
+   <aside class="side-gallery gallery-right">
+    <div class="gallery-heading">ANIME · STORIES</div>
+    <div class="anime-grid">
+     <div class="anime-poster poster-haikyuu"><span>HAIKYUU!!</span><i>▲</i></div>
+     <div class="anime-poster poster-onepiece"><span>ONE PIECE</span><i>☠</i></div>
+     <div class="anime-poster poster-naruto"><span>NARUTO</span><i>忍</i></div>
+    </div>
+    <div class="gallery-stack"><span>ANIME</span><span>MANHWA</span><span>MUSIC</span><span>DETECTIVE</span><span>FANTASY</span></div>
+   </aside>
+  </div>
+  <p class="shelf-caption">Browse slowly. Curiosity is allowed to wander.</p>
+ </section>
+ <section class="lower-desk">
+  <div class="desk-item desk-book"><span class="desk-label">OPEN WORLDS</span><div class="open-paper"><span>Stories live in every form.</span><i>✧</i></div></div>
+  <div class="desk-center"><span class="quote-mark">“</span><p>language is <em>infinite</em></p><span class="quote-mark">”</span><small>A note to myself: there is always more to discover.</small></div>
+  <div class="desk-item desk-investigation"><span class="desk-label">INVESTIGATION LOG</span><div class="case-note"><span>QUESTIONS</span><span>CLUES</span><span>CONNECTIONS</span><span>WHAT IF?</span></div></div>
+ </section>
+ <footer class="bottom-note"><span>MADE WITH CURIOSITY ✦</span><span>NATURAL LANGUAGE PROCESSING · CLASS PORTFOLIO</span><span>POORVAJA S.</span></footer>
 </main>
-<div class="overlay" id="overlay" aria-hidden="true"><div class="reader-shell"><div class="reader-toolbar"><button id="closeBook" class="text-button">← Back to bookshelf</button><span id="readerCounter">BOOK 01</span><div class="reader-actions"><button id="prevPage" aria-label="Previous page">←</button><button id="nextPage" aria-label="Next page">→</button></div></div><div class="open-book" id="openBook"><div class="page left-page"><div class="page-inner" id="leftContent"></div><span class="page-number" id="leftNum">1</span></div><div class="book-gutter"></div><div class="page right-page"><div class="page-inner" id="rightContent"></div><span class="page-number" id="rightNum">2</span></div></div><p class="reader-hint">Use the arrows to turn the pages · Esc to close</p></div></div>
-<div class="modal-overlay" id="aboutModal" aria-hidden="true"><div class="about-card"><button id="closeAbout" class="close-x" aria-label="Close">×</button><p class="eyebrow">A NOTE FROM THE AUTHOR</p><h2>Not just what I learned.<br><em>What made me curious.</em></h2><p>This is my record of learning Natural Language Processing: the stars I earned, the activities I tried, the questions we discussed in class, the conversations I had outside class, and the research ideas I kept thinking about.</p><p class="small-muted">Some entries are completed activities; others are ideas for future exploration. They are labelled accordingly.</p></div></div>
-<script src="/app.js"></script></body></html>
+<div class="overlay" id="overlay" aria-hidden="true">
+ <div class="reader-shell" id="readerShell">
+  <div class="reader-toolbar"><button id="closeBook" class="back-button">← <span>Back to bookshelf</span></button><span id="readerCounter">BOOK I</span><div class="reader-actions"><button id="prevPage" aria-label="Previous spread">←</button><span id="spreadCounter">01 / 01</span><button id="nextPage" aria-label="Next spread">→</button></div></div>
+  <div class="open-book" id="openBook"><div class="page left-page"><div class="page-inner" id="leftContent"></div><span class="page-number" id="leftNum">1</span></div><div class="book-gutter"></div><div class="page right-page"><div class="page-inner" id="rightContent"></div><span class="page-number" id="rightNum">2</span></div></div>
+  <div class="reader-footer"><span class="reader-hint">← → TURN PAGES · ESC CLOSES THE BOOK</span><span id="bookFootnote">THE NLP BOOKCASE</span></div>
+ </div>
+</div>
+<div class="modal-overlay" id="aboutModal" aria-hidden="true"><article class="about-card"><button id="closeAbout" class="close-x" aria-label="Close About Me">×</button><p class="eyebrow">A NOTE FROM THE AUTHOR</p><h2>About Me</h2><div class="about-divider">✧ ━━━━━━━━━ ✧</div>
+<p>Hi! I'm Poorvaja S (23MIC0030), and this is my portfolio — a little space built around the things I love, the stories that fascinate me, and the interests that shape the way I see the world.</p>
+<p>I'm someone who loves stories in every form imaginable. Books, mangas, anime, TV shows, and pretty much anything that has a story to tell — I'm interested in all of it. There's something about stories that excites me, whether it's getting lost in a fictional world, understanding a character, or discovering the little details that make a story unforgettable. I don't just enjoy stories; I'm fascinated by them.</p>
+<p>Another passion of mine is history. To me, history is everything. It's who we were, how we got here, what we learned, and everything we can still learn from the past. Every little detail holds a story worth discovering, and I believe preserving history is just as important as understanding it. There's so much of our world hidden in the things we've forgotten, overlooked, or left behind, and I want to be part of preserving those stories.</p>
+<p>Recently, I've discovered a new interest in <strong>Natural Language Processing (NLP)</strong>, and honestly, it feels like a place where all my interests can come together. The idea that we can use technology to understand language, uncover patterns in text, explore stories, and preserve the knowledge hidden within words fascinates me. It connects my love for stories and history with my interest in computing in a way I hadn't quite imagined before.</p>
+<p>This portfolio is a reflection of that curiosity. It's about exploring the connections between language, stories, history, and technology — and discovering what we can learn when we look a little closer.</p>
+<p>Because, at the end of the day, I'm interested in stories. The ones people tell, the ones history leaves behind, and the ones we can uncover through the words we use.</p><div class="about-signoff">— Poorvaja <span>✦</span></div></article></div>
+<script src="/app.js"></script>
+</body></html>
