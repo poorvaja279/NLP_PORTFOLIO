@@ -1,0 +1,5 @@
+# Hatchable project manifest. This file marks the folder as a
+# Hatchable project and declares the services it uses.
+# Reference: https://hatchable.com/docs/developers/config
+name = "The NLP Bookcase"
+description = "An interactive, book-themed portfolio for NLP class activities, earned stars, classroom brainstorming, personal academic discussions, and independent research ideas."
